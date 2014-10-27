@@ -1,0 +1,182 @@
+body {
+	padding-top: 50px;
+}
+
+.main-page {
+	padding: 40px 15px;
+	width: 1000px;
+}
+
+/********/
+/* hero */
+/********/
+
+div .float {
+	float: left;
+	width: 200px;
+}
+
+div .spacer {
+	clear: both;
+}
+
+div .mycontainer {
+	border: 2px dashed #333;
+	background-color: #ffe;
+	
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ability input {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.ability tr {
+	text-align: center;
+}
+
+.hero_table .title {
+	width: 90%;	
+	font-family: 標楷體;
+	font-size:  25px;
+}
+
+.hero_table .share {
+	width: 20%;	
+	font-family: 標楷體;
+	font-size:  25px;
+}
+
+/********/
+/* text */
+/********/
+
+.text_red {
+	color: red;
+}
+
+/*****************/
+/* sign-in block */
+/*****************/
+.block-sign {
+	width: 400px;
+}
+
+/**********/
+/* footer */
+/**********/
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.footer {
+	height: 30px;
+	box-sizing: border-box;
+	/* 設定footer絕對位置在底部 */
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/**********/
+/* header */
+/**********/
+.header_title_font {
+	font-family: 標楷體;
+	font-size:  30px;
+}
+
+.header_content_font {
+	font-family: 標楷體;
+	font-size:  20px;
+}
+
+/****************/
+/* announcement */
+/****************/
+.announcement_title {
+	width: 88%;	
+	font-family: 標楷體;
+	font-size:  25px;
+}
+
+.announcement_date {
+	width: 12%;
+	color: red;
+	padding-top: 15px!important;
+}
+
+.announcement_detail {
+	width: 850px;
+	padding: 40px;
+}
+
+.announcement_linkButton { 
+     background: none;
+     border: none;
+     color: #0066ff;
+     cursor: pointer;
+}
+
+.announcement_form {
+	margin-bottom: 0;
+}
+
+/****************/
+/* activity	    */
+/****************/
+.activity_title {
+	width: 70%;	
+	font-family: 標楷體;
+	font-size:  25px;
+}
+
+.activity_date {
+	width: 12%;
+	color: red;
+	padding-top: 15px!important;
+}
+
+.activity_detail {
+	width: 850px;
+	padding: 40px;
+}
+
+.activity_linkButton { 
+     background: none;
+     border: none;
+     color: #0066ff;
+     cursor: pointer;
+}
+
+.activity_form {
+	margin-bottom: 0;
+}
+
+
+
+/**************/
+/* about us */
+/**************/
+
+.ove_logo {
+	margin-left: -10px;
+}
+
+.ove_title {
+	font-family: 標楷體;
+	font-size:  30px;
+}
+
+.ove_content {
+	font-family: 標楷體;
+	font-size:  25px;
+}
+
+.ove_message {
+	font-family: tahoma;
+	font-size:  25px;
+}

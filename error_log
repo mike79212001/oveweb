@@ -1,0 +1,31 @@
+[25-May-2014 02:12:11 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:15:01 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:17:31 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:20:34 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:21:57 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:25:04 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:28:59 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:33:00 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:39:21 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:41:12 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:41:22 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/class/201406_ming.php on line 37
+[25-May-2014 02:41:27 Asia/Taipei] PHP Fatal error:  Call to undefined method Frame::get_main_frame() in /home/ovecomtw/public_html/index.php on line 55
+[12-Jul-2014 18:18:23 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:18:27 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:18:30 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:04 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:06 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:19:09 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:13 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:18 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:19:23 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:38 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:49 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:19:59 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:20:01 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:20:02 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:20:03 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:20:05 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:22:08 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121
+[12-Jul-2014 18:22:32 Asia/Taipei] PHP Fatal error:  Call to undefined function isTop() in /home/ovecomtw/public_html/index.php on line 126
+[12-Jul-2014 18:22:41 Asia/Taipei] PHP Fatal error:  Call to undefined function getPreviousPage() in /home/ovecomtw/public_html/announcement.php on line 121

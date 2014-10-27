@@ -1,0 +1,12 @@
+[23-May-2014 04:40:36 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 31
+[23-May-2014 04:41:24 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 31
+[23-May-2014 04:42:36 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 31
+[23-May-2014 04:43:19 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 24
+[23-May-2014 04:43:35 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 24
+[23-May-2014 04:45:19 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/modify_activity.php:5) in /home/ovecomtw/public_html/admin/modify_activity.php on line 24
+[30-May-2014 11:51:37 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/admin/class/201406_ming.php on line 37
+[30-May-2014 11:52:25 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/admin/class/201406_ming.php on line 37
+[30-May-2014 11:58:18 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/admin/class/201406_ming.php on line 37
+[30-May-2014 12:03:23 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/admin/class/201406_ming.php on line 37
+[30-May-2014 12:05:41 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[' in /home/ovecomtw/public_html/admin/class/201406_ming.php on line 37
+[14-Jul-2014 14:56:32 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ovecomtw/public_html/admin/delete_activity.php:16) in /home/ovecomtw/public_html/admin/delete_activity.php on line 20
