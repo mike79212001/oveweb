@@ -12,7 +12,7 @@ $(".noEnterKey").keypress( function(e){
 function send()
 {
 	$.ajax({
-        url: "receive.php",
+        url: "js/receive.php",
         //data: $('#sign_in').serialize(),
         //type:"POST",
         //dataType:'text',
@@ -22,7 +22,7 @@ function send()
             var jqobj = eval(msg);
             
             for(var elem in jqobj) {
-                if(jqobj[elem] == "mike") alert("loves");
+                if(jqobj[elem] == "mike") alert("haha");
             }
         },
 
