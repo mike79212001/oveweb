@@ -1,0 +1,50 @@
+.header{
+	background-color: #CCCCFF;
+	color: #0000FF;
+	position: absolute;
+	width: 720px;
+	height: 30px;
+	top: 10px;
+	left: 20px;
+}
+
+.navigation{
+	background-color: #FFAAFF;
+	color: #008200;
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	top: 40px;
+	left: 20px;
+ 	font-size: 1em; 
+	line-height: 1.2em;
+}
+
+.content{
+	background-color: #AAAAAA;
+	color: #E00000;
+	position: absolute;
+	width: 720px;
+	height: 300px;
+	top: 240px;
+	left:20px;
+ 	font-size: 1em; 
+	line-height: 1.2em;
+}
+
+.footer{
+	background-color: #CCCCFF;
+	color: #0000FF;
+	position: absolute;
+	width: 720px;
+	height: 30px;
+	top: 540px;
+	left: 20px;
+ 	font-size: 1em; 
+	line-height: 1.2em;
+}
+
+.p{
+ 	font-size: 1px; 
+	line-height: 1.2em;
+} 

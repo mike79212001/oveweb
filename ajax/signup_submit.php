@@ -17,7 +17,7 @@
 	}
 	
 	if(strcmp($password, $password_check) != 0) {
-		echo "NO MATCH";
+		echo "NO MATCH";	
 		return;
 	}
 	
