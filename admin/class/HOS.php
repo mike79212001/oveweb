@@ -1,5 +1,5 @@
 <?php
-require_once ("class/HOS_DB.php");
+require_once dirname(__FILE__)."/HOS_DB.php";
 
 class HeroData 
 {
@@ -369,6 +369,18 @@ function getHeroAbilityTypeCheck($uid, $id, $radio)
 		return "checked";
 	else
 		return "";
+}
+
+function getHeroAllAbility($id)
+{
+	$db = new HOS_DB();
+	$re = $db->query("	SELECT A.name, H.*
+						FROM heroability as H, ability as A
+						WHERE H.uid='$id' AND H.id=A.id
+						ORDER BY name ASC");
+	$list = array();
+	while($re = $db->fetch_array()) array_push($list, $re);
+	return $list;
 }
 
 function getHeroPassiveAbility($id) 

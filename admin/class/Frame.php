@@ -40,12 +40,13 @@ class Frame {
 	
 	function print_head_tag() {
 		echo '	<head>
-					<meta http-equiv="Content-Language" content="zh-tw" charset="utf-8">
+					<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 					<meta name="viewport" content="width=device-width, initial-scale=1">
 					<meta name="author" content="MikeKao">
 					<title>OVE</title>
 					<link href="module/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 					<link href="css/OVE.css" rel="stylesheet">
+					<link href="css/graph_setting.css" rel="stylesheet">
 				</head>';
 	}
 	
@@ -87,6 +88,8 @@ class Frame {
 										<li><a href="add_hero_graph.php">設定 英雄 圖片</a></li>
 										<li><a href="add_ability_graph.php">設定 技能/天賦 圖片</a></li>
 										<li><a href="list_graph.php">修改 圖片設定</a></li>
+										<li>&nbsp;</li>
+										<li><a href="graph_setting.php">設定已有圖片</a></li>
 									</ul>
 								</li>
 				
@@ -113,8 +116,9 @@ class Frame {
 	
 	function print_javascript_config() {
 		echo '	<!-- Placed at the end of the document so the pages load faster -->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-				<script src="module/bootstrap/js/bootstrap.min.js"></script>';
+				<script src="js/jquery-1.11.0.min.js"></script>
+				<script src="module/bootstrap/js/bootstrap.min.js"></script>
+				<script src="js/graph_setting.js"></script>';
 	}
 }
 

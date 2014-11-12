@@ -6,16 +6,40 @@
 <body>
 	
     
-    <form id="sign_in" class="noEnterKey" action="haha.php" method="GET">
-        <h3>account:</h3>
-        <input type="text" name="account"/>
-        <h3>password:</h3>
-        <input type="text" name="password"/>
-        <br/><br/>
-        <input type="button" value="click" onclick="send()">
-    </form>
-    
-	<div class="message"><h1></h1></div>
+    <?php
+    	function dirToArray($dir) { 
+		   
+		   $result = array(); 
+
+		   $cdir = scandir($dir); 
+		   foreach ($cdir as $key => $value) 
+		   { 
+		      if (!in_array($value,array(".",".."))) 
+		      { 
+		         if (is_dir($dir . DIRECTORY_SEPARATOR . $value)) 
+		         { 
+		         	
+		            $list = dirToArray($dir . DIRECTORY_SEPARATOR . $value); 
+		            foreach($list as $value2) {
+						$result[] = $value2;
+					}
+		         } 
+		         else 
+		         { 
+		            $result[] = $dir.DIRECTORY_SEPARATOR.$value; 
+		         } 
+		      } 
+		   } 
+		   
+		   return $result; 
+		} 
+		
+		
+		$list = dirToArray($_SERVER['DOCUMENT_ROOT']."/picture");
+		echo json_encode($list);
+//		echo dirname("0313153947222126587.jpg");
+//		print_r($list);
+    ?>
 	
 	
 	<!-- jquery and bootstrap -->
