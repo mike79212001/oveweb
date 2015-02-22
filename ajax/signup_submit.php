@@ -1,28 +1,25 @@
 <?php
-	include_once("User.php");
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	require_once "$path/ajax/User.php";
 	
 	// get input data
-	$account = $_POST["account"];
-	$password = $_POST["password"];
-	$password_check = $_POST["password_check"];
-	$name = $_POST["name"];
-	$nickname = $_POST["nickname"];
-	$phone = $_POST["phone"];
-	$gender = $_POST["gender"];
+	$account 		= $_POST["account"];
+	$password 		= $_POST["password"];
+	$name 			= $_POST["name"];
+	$nickname 		= $_POST["nickname"];
+	$gender 		= $_POST["gender"];
 	
+	// check the email has used or not
 	$result = hasemail($account);
 	if($result == true) {
-		echo "ACCOUNT EXIST";
-		return;
-	}
-	
-	if(strcmp($password, $password_check) != 0) {
-		echo "NO MATCH";	
+		echo "ACCOUNT EXIST";	// reuturn account exist
 		return;
 	}
 	
 	$encryption = md5($password);
-	$result = addUser($account, $encryption, $name, $nickname, $phone, $gender);
-	if($result == true) echo "SUCCESS";
+	$result = addUser($account, $encryption, $name, $nickname, "0", $gender);
+	$id = mysql_insert_id();
+	
+	if($result == true) echo $id;
 	else echo "FAIL";
 ?>

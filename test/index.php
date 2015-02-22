@@ -17,9 +17,9 @@
     </script>
     
     <?php 
-        $test = $_COOKIE['test'];
-        if(isset($test)) echo YES;
-        else echo NO;
+        for( $i in 5) {
+			echo $i;
+		}
     ?>
     
     <form id="sign_in" class="noEnterKey" action="haha.php" method="GET">
